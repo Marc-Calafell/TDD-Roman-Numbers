@@ -33,5 +33,10 @@ class RomanNumbersSpec extends ObjectBehavior
 
     }
 
+    function it_returns_X_if_10(){
+        $this->convert(10)->shouldReturn('X');
+
+    }
+
 
 }
