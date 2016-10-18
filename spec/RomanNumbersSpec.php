@@ -18,6 +18,10 @@ class RomanNumbersSpec extends ObjectBehavior
 
     }
 
+    function it_returns_II_if_2(){
+        $this->convert(2)->shouldReturn('II');
+
+    }
 
 
 }
