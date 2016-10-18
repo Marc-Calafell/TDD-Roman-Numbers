@@ -23,5 +23,10 @@ class RomanNumbersSpec extends ObjectBehavior
 
     }
 
+    function it_returns_III_if_3(){
+        $this->convert(3)->shouldReturn('III');
+
+    }
+
 
 }
