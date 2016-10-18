@@ -2,16 +2,7 @@
 
 class RomanNumbers
 {
-    function convert($number){
-        if($number==2) {
-            return 'II';
-
-        }
-
-        if($number==3) {
-            return 'III';
-
-        }
+    public function convert($number){
 
         if($number==5) {
             return 'V';
@@ -23,7 +14,7 @@ class RomanNumbers
 
         }
 
-            return 'I';
+        return str_repeat("I", $number);
 
     }
 
