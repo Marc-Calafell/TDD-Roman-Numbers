@@ -10,13 +10,10 @@
         }
     ],
 
-    "autoload":{
-        "psr-0":{
+    "autoload": {
+        "psr-0": {
             "": "src"
-
         }
-
-
     }
 
 }
